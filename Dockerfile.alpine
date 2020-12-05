@@ -19,7 +19,7 @@ COPY --from=prep /usr/local/src /usr/local/src
 ENV LANG=en_US.UTF-8
 
 RUN apk add -U build-base ncurses-dev openssl-dev readline-dev zip zlib-dev \
-    && cd /usr/local/src/SoftEtherVPN_Stable-* \
+    && cd /usr/local/src/SoftEtherVPN-* \
     && ./configure \
     && make \
     && make install \

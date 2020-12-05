@@ -5,7 +5,7 @@
 <sup>*</sup> "Simple" as in no configuration parameter is needed for a single-user SecureNAT setup.
 
 ## Image Tags
-Base OS Image | Latest Stable ([v4.34-9745-beta](https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/tree/v4.34-9745-beta)) | Previous Base | [v4.29-9680-rtm](https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/tree/v4.29-9680-rtm)
+Base OS Image | Latest Stable ([v4.34-9745-beta](https://github.com/SoftEtherVPN/SoftEtherVPN/tree/v4.34-9745-beta)) | Previous Base | [v4.29-9680-rtm](https://github.com/SoftEtherVPN/SoftEtherVPN/tree/v4.29-9680-rtm)
 ------------- | -- | -- | --
 `centos:8` | **`:latest`**, `:centos`, `:9745`, `:4.34`, `:9745-centos`, `:4.34-centos` | `centos:7` | `:9680`, `:4.29`, `:9680-centos`, `4.29-centos`
 `debian:10-slim` | `:debian`, `:9745-debian`, `:4.34-debian` | `debian:10-slim` | `:9680-debian`, `:4.29-debian`
@@ -116,6 +116,6 @@ Certificate volumes support (like `-v` or `--volumes-from`) will be added at som
 [MIT License][4].
 
   [1]: https://www.softether.org/
-  [2]: https://github.com/SoftEtherVPN/SoftEtherVPN_Stable
+  [2]: https://github.com/SoftEtherVPN/SoftEtherVPN
   [3]: https://docs.docker.com/engine/reference/commandline/run/#set-environment-variables-e-env-env-file
   [4]: https://github.com/siomiz/SoftEtherVPN/raw/master/LICENSE
